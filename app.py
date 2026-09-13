@@ -25,7 +25,30 @@ import streamlit as st
 
 import database as db
 import outfit_logic as logic
-from silhouette import SKIN_TONES, COLOR_HEX
+SKIN_TONES = {
+    "Light": "#F4D9C0",
+    "Medium": "#E0AC81",
+    "Tan": "#C68863",
+    "Deep": "#8D5524",
+    "Dark": "#4A2C1B",
+}
+
+COLOR_HEX = {
+    "white": "#F5F5F5",
+    "black": "#2B2B2B",
+    "grey": "#9CA3AF",
+    "blue": "#3B82F6",
+    "navy": "#1E3A5F",
+    "red": "#EF4444",
+    "green": "#22C55E",
+    "yellow": "#EAB308",
+    "brown": "#92400E",
+    "beige": "#D8C3A5",
+    "pink": "#EC4899",
+    "purple": "#8B5CF6",
+    "orange": "#F97316",
+}
+
 from virtual_tryon import create_virtual_tryon
 
 
